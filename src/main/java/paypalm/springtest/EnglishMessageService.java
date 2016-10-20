@@ -4,6 +4,6 @@ import org.springframework.stereotype.Component;
 @Component("english")
 public class EnglishMessageService implements MessageService {
 	public String getMessage() {
-		return "english";
+		return "reture english message";
 	}
 }

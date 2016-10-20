@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class ChineseMessageService implements MessageService {
 
 	public String getMessage() {
-		return "中文";
+		return "返回中文信息";
 	}
 }
